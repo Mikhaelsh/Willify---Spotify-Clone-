@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilify - Join Us</title>
+    <link rel="stylesheet" href="loginstyles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="../assets/Logo.png" alt="Wilify Logo">
+            <h1>Wilify</h1>
+        </div>
+        <div class="form-container">
+            <h2>Join us and start<br>Listening! <span class="highlight">Wilify</span></h2>
+            <form id="signupForm">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="profileName">Profile Name</label>
+                <input type="text" id="profileName" name="profileName" placeholder="Your display name" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Your age" required>
+
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" name="gender" placeholder="Your gender" required>
+
+                <button type="submit" onclick="validateForm()">Continue</button>
+            </form>
+        </div>
+    </div>
+    <script src="loginscripts.js"></script>
+</body>
+</html>
